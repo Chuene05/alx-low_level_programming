@@ -1,0 +1,1 @@
+Information about all these if else and while statements will be added here some day
