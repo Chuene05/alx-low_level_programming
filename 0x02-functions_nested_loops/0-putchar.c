@@ -7,7 +7,15 @@
  * Return: On success 0.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(0, &c, 1));
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		putchar(*sh);
+		sh++;
+	}
+	putchar('\n');
+	return(0);
 }
